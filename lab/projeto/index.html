@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="css/reset.css">-->
+    <!--<link rel="stylesheet" href="css/normalize.css">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/leiaute.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <title>PróximoPASSO</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="imagens/logo.png" alt="próximo passo" width="100">
+        </div>
+    </header>
+    <div id="vagas"></div>
+    <div class="container"></div>
+    <div class="row">
+        <!-- por padrão, ocupa as 12 colunas (mobile first) -->
+        <!-- se a tela for pelo menos md, usa apenas 4 -->
+        <div class="col-md-4">
+            <article class="vaga">
+                <h2 class="vaga_cabecalho">Desenvolvedor Java Back End</h2>
+                <div class="vaga_salario">Salário: <strong>R$6000,00</strong></div>
+                <ul class="vaga_prerequisitos">
+                    <li>Spring Boot</li>
+                    <li>Controle de versão com Git</li>
+                    <li>Banco de dados relacionais</li>
+                    <li>POO</li>
+                </ul>
+                <footer class="vaga_rodape">
+                    <a class="botao botao--candidatar" href="candidatar_se.html">Candidate-se!</a>
+                </footer>
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article class="vaga">
+                <h2 class="vaga_cabecalho">Desenvolvedor front-end</h2>
+                <div class="vaga_salario">Salário: <strong>R$5500,00</strong></div>
+                <ul class="vaga_prerequisitos">
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>Javascript</li>
+                    <li>Typescript</li>
+                </ul>
+                <footer class="vaga_rodape">
+                    <a class="botao botao--candidatar" href="candidatar_se.html">Candidate-se!</a>
+                </footer>
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article class="vaga" style="margin-right: 0">
+                <h2 class="vaga_cabecalho">Desenvolvedor Full Stack</h2>
+                <div class="vaga_salario">Salário: <strong>R$7800,00</strong></div>
+                <ul class="vaga_prerequisitos">
+                    <li>React</li>
+                    <li>NodeJS</li>
+                    <li>Angular</li>
+                    <li>Spring Boot</li>
+                </ul>
+                <footer class="vaga_rodape">
+                    <a class="botao botao--candidatar" href="cadidatar_se.html">Candidate-se!</a>
+                </footer>
+            </article>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

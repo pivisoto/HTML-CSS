@@ -1,0 +1,18 @@
+article p {
+    padding: 12px;
+    background-color: brown;
+}
+#principal p.promocao{
+    padding: 15px;
+    background-color: blanchedalmond;
+}
+body #principal article section p.coordenadores{
+    text-align: center;
+}
+article > p{
+    border: solid 2px red;
+}
+main > article section > p.coordenadores{
+    font-weight: bold;
+
+}

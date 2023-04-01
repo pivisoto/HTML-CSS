@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>forms</title>
+    </head>
+    <body>
+        <form>
+            <label for="primeiroNome">Primeiro nome:</label>
+            <input id="primeiroNome" type="text">
+
+            <p></p>
+
+            <label for="sobreNome">Sobrenome:</label>
+            <input id = "sobreNome" type="text">
+
+            <p></p>
+
+            <label for="email">Email:</label>
+            <input id="email" type="email">
+
+            <p></p>
+
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" type="tel">
+            
+            <p></p>
+
+            <label for="cor">Cor:</label>
+            <input id="cor" type="color">
+            
+            <p></p>
+
+            <label for="arquivo">Arquivo:</label>
+            <input id="arquivo" type="file">
+            
+            <p></p>
+            <p>
+                <label for="mensagem">Escreva sua mensagem</label>
+                <textarea id="mensagem" cols="40" rows="8"></textarea>
+            </p>
+            <p>
+                <h3>Estados</h3>
+                <label for="Estados"></label>
+                <select id="Estados">
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Espirito Santo">Espirito Santo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Ceara">Ceara</option>
+                </select>
+                <fieldset>
+                    <legend>Escolha um veículo</legend>
+                    <input id="X1"
+                    type="radio" 
+                    name="veiculo">
+                    <label for = "X1">X1</label>
+
+                    <input id="XC60"
+                    type="radio" 
+                    name="veiculo">
+                    <label for = "XC60">XC60</label>
+
+                    <input id="Q5"
+                    type="radio" 
+                    name="veiculo">
+                    <label for = "Q5">Q5</label>
+
+                    <input id="Discovery"
+                    type="radio" 
+                    name="veiculo">
+                   <label for = "Discovery">Discovery</label>
+
+                    <input id="Taycan" 
+                    type="radio" 
+                    name="veiculo">
+                <label for = "Taycan">Taycan</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>De quais cores você gosta?</legend>
+                    <input
+                    id="vermelho"
+                    type="checkbox"
+                    name="cor">
+                    <label for="vermelho">Vermelho</label>
+
+                    <input
+                    id="amarelo"
+                    type="checkbox"
+                    name="cor">
+                    <label for="amarelo">Amarelo</label>
+
+                    <input
+                    id="preto"
+                    type="checkbox"
+                    name="cor">
+                  <label for="preto">Preto</label>
+
+                </fieldset>
+            </p>
+
+            <input type="submit" value="sent">
+        </form>
+    </body>
+</html>

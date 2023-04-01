@@ -1,0 +1,41 @@
+#titulo{
+    color: green;
+    text-align: center;
+}
+p#descricao{
+    color: blueviolet
+}
+.promocao{
+    text-align: center;
+    background-color:antiquewhite;
+}
+p.promocao{
+    text-align: center;
+    background-color: yellow;
+}
+h1.promocao {
+    color:orange;
+}
+.nova {
+    color:white;
+    background-color: aqua;
+}
+p.final-pagina#rodape {
+    background-color: bisque;
+    text-align: center;
+}
+p.final-pagina{
+    text-align: right;
+}
+.curso{
+    background-color: beige;
+}
+.novo-curso{
+    background-color: beige;
+    color: rgb(7, 252, 7);
+}
+.curso , .novo-curso, #contato{
+    padding: 12px;
+    border: 1px solid violet;
+}
+/*Uso do (.) para definir classe e (#) para id*

@@ -1,0 +1,66 @@
+.vaga {
+    padding: 12px;
+    border: 1px solid #2196F3;
+}
+.vaga_cabecalho{
+    background-color: #2196F3;
+    color: #FFF;
+    /* centraliza horizontalmente */
+    text-align: center;
+    /* altura da caixa igual a três vezes a altura da fonte */
+    line-height: 3;
+    margin: -12px;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.vaga_salario {
+    text-align: center;
+    font-size: 24px;
+    /* 20px superior e inferior. 0 esquerda e direita */
+    margin: 20px 0;
+}
+
+.vaga_prerequisitos {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.vaga_prerequisitos > li{
+    text-align: center;
+}
+
+.vaga_rodape {
+    text-align: center;
+}
+
+.botao {
+    /* elemento inline porém podemos ajustar largura e altura */
+    display: inline-block;
+    /* cor de fundo */
+    background-color: #AAA;
+    /* cor da fonte */
+    color: white;
+    /* espaço entre o conteúdo e a borda */
+    padding: 10px 16px;
+    /* retirando o sublinhado do texto */
+    text-decoration: none;
+}
+
+.botao:hover,.botao:focus {
+    /* ao receber foco ou quando o mouse passar por cima, fica mais escuro */
+    background-color: #777;
+    /* por padrão, quando ganha foco, um link mostra bordas. aqui estamos removendo
+    elas. Teste com e sem para ver a diferença. Navegue pelos elementos da página com
+    tab */
+    outline: none;
+}
+.botao--candidatar{
+    background-color: #1976d2;
+}
+.botao--candidatar:hover, .botao--candidatar:focus{
+    background-color: #0d47a1;
+    color: yellow;
+}

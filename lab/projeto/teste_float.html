@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Float</title>
+    <link rel="stylesheet" href="css/teste_float.css">
+    <style>
+        article{
+            background-color: brown;
+        }
+        p{
+            background-color: aqua;
+            width: 30%;
+            margin: 0;
+        }
+        p.caixa1{
+            float:left;
+        }
+        p.caixa2{
+            float:right;
+        }
+        footer{
+            background-color: bisque;
+        }
+        div{
+            clear:both
+        }
+        article> p::first-letter{
+            font-size: 40px;
+        }
+        h1::before{
+            content: "Título: "
+        }
+        h1::after{
+            content:"2022"
+        }
+        article::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>lorem ipsum</h1>
+        <p class="caixa1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perspiciatis repudiandae numquam, ullam autem necessita</p>
+        <p class="caixa2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem dignissimos maxime repudiandae consequuntur voluptas
+            neque perspiciatis magni aspernatur illum enim?</p>
+    </article>
+        <footer>este é o rodapé da página</footer>
+</body>
+</html>
