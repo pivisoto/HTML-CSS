@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Uso do css</title>
+</head>
+<body>
+
+<h1 style=color:red>Maneira de mudar o estilo de forma direta</h1>
+<p style="color: blue;font-size: 30px;">Exemplo</p>
+<img src="1.png">
+
+<p style="font-size:30px"><strong>podemos usar o strong para deixar as palavras em negrito</strong></p>
+<img src="2.png">
+
+<h1>podemos definir como cada elemento vai ser</h1>
+<style>
+    h1{color:red;}
+    p{color:green;font-size: 30px;}
+</style>
+<img src="3.png">
+
+<h2>É possivel notar que o elemento strong tambem ficou verde isso ocoree pois alguma propriedades são herdadas pelos elementos filhos , strong é filho de p nesse caso</h2>
+<p>podemos mudar o elemento strong assim como mudamos o p , usarei uma classe por motivos didaticos</p>
+<style>
+    strong.exemplo{color:purple ; font-size: 30px;}
+</style>
+<img src="4.png">
+<strong class="exemplo">aaaaa</strong>
+
+<h1>IDS USADOS NO CSS</h1>
+<h2 id="rabanete">rabaneto</h2>
+<h2 id="abobrinha">abrobinho</h2>
+<style>
+    #rabanete {font-family: 'Courier New', Courier, monospace;}
+    #abobrinha{color: gold;}
+</style>
+<img src="5.png">
+<h1>AGORA USANDO CLASSES</h1>
+<p class="pepino">pepino denuevo</p>
+<p class="seu_buceta">não vou devolver não</p>
+<style>
+    .pepino{font-family: fantasy;}
+    .seu_buceta{font-family: monospace;}
+</style>
+<img src="6.png">
+<h2>mesmo possuem classes definidas o p com estilo de cor verde ainda as influecia</h2>
+
+</body>
+</html>
